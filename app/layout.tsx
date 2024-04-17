@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import { ClerkProvider } from '@clerk/nextjs'
 import { Toaster } from "@/components/ui/toaster"
 import "./globals.css";
-import '@stream-io/video-react-sdk/dist/css/style.css';
+import "@stream-io/video-react-sdk/dist/css/styles.css";
 import 'react-datepicker/dist/react-datepicker.module.css';
 
 const inter = Inter({ subsets: ["latin"] });
